@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Assignment 2</string>
+    <string name="app_name">cookingMadeEasy</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="food">
+        <item>rice</item>
+        <item>potato</item>
+        <item>beef</item>
+        <item>pork</item>
+        <item>lamb</item>
+        <item>chicken</item>
+        <item>fish</item>
+    </string-array>
+
+    <string-array name="chicken">
+        <item>rice</item>
+        <item>potato</item>
+        <item>beef</item>
+    </string-array>
 </resources>
