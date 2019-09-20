@@ -3,7 +3,13 @@ package com.example.cookingmadeeasy;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.assignment2.Beef;
 import com.example.assignment2.Chicken;
+import com.example.assignment2.Fish;
+import com.example.assignment2.Lamb;
+import com.example.assignment2.Pork;
+import com.example.assignment2.Potato;
+import com.example.assignment2.Rice;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -65,7 +71,31 @@ public class MainActivity extends AppCompatActivity {
                         Intent newScreen = new Intent(MainActivity.this, Chicken.class);
                         MainActivity.this.startActivity(newScreen);
                         break;
-                }
+                    case "fish":
+                        Intent newScreen1 = new Intent(MainActivity.this, Fish.class);
+                        MainActivity.this.startActivity(newScreen1);
+                        break;
+                    case "pork":
+                        Intent newScreen2 = new Intent(MainActivity.this, Pork.class);
+                        MainActivity.this.startActivity(newScreen2);
+                        break;
+                    case "rice":
+                        Intent newScreen3 = new Intent(MainActivity.this, Rice.class);
+                        MainActivity.this.startActivity(newScreen3);
+                        break;
+                    case "potato":
+                        Intent newScreen4 = new Intent(MainActivity.this, Potato.class);
+                        MainActivity.this.startActivity(newScreen4);
+                        break;
+                    case "lamb":
+                        Intent newScreen5 = new Intent(MainActivity.this, Lamb.class);
+                        MainActivity.this.startActivity(newScreen5);
+                        break;
+                    case "beef":
+                        Intent newScreen6= new Intent(MainActivity.this, Beef.class);
+                        MainActivity.this.startActivity(newScreen6);
+                        break;
+            }
             }
         });
     }
